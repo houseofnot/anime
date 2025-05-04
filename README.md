@@ -2,9 +2,9 @@ welcome to Myotakunest
 
 NOTE MAL SUPPORT WONT BE ADDED DUE TO NEEDED TO GET APPLICATION APPROVED
 
-YOU CAN VIEW A LIVE DEML HERE
+YOU CAN VIEW A LIVE DEMO HERE
 
-This is an open-source PHP-based anime streaming website that integrates with MyAnimeList (MAL), AniList, and Jikan API. The website allows users to stream anime, read manga, and track their progress across different platforms (MAL and AniList). This project is designed for personal use and is not intended for commercial purposes.
+This is an open-source PHP-based anime streaming website that integrates with Animepahe api, mangadex api, AniList, and Jikan API. The website allows users to stream anime, read manga, and track their progress across AniList. This project is designed for personal use and is not intended for commercial purposes.
 
 Table of Contents:
 - Installation
