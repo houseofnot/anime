@@ -1,4 +1,8 @@
-Anime Streaming Website
+welcome to Myotakunest
+
+NOTE MAL SUPPORT WONT BE ADDED DUE TO NEEDED TO GET APPLROVED
+
+YOU CAN VIEW A LIVE DEML HERE
 
 This is an open-source PHP-based anime streaming website that integrates with MyAnimeList (MAL), AniList, and Jikan API. The website allows users to stream anime, read manga, and track their progress across different platforms (MAL and AniList). This project is designed for personal use and is not intended for commercial purposes.
 
@@ -53,10 +57,9 @@ Usage
 Configuration
 
 1. **API Integration**:
-   - You must configure your **MAL** and **AniList** API credentials in `config/config.php`. You can obtain these from their respective developer platforms.
+   - You must configure your l**AniList** API credentials in the `config.php`. You can obtain these from their respective developer platforms.
 
 2. **Enable/Disable API Features**:
-   - Set `$myanimelist = true;` to enable **MAL** integration, or `false` to disable.
    - Set `$anilist = true;` to enable **AniList** integration, or `false` to disable.
 
 3. **Database Configuration**:
@@ -67,9 +70,7 @@ Configuration
 
 Documentation
 
-- **MAL API**: [MAL API Documentation](https://myanimelist.net/apiconfig)
 - **AniList API**: [AniList API Documentation](https://anilist.gitbook.io/anilist-apiv2-docs/)
-- **Jikan API**: [Jikan API Documentation](https://jikan.docs.apiary.io/)
 
 This documentation contains all the necessary information about how to interact with the APIs and how the system is designed.
 
