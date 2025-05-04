@@ -25,21 +25,22 @@ Steps to Install:
 
 2. **Upload the files via FTP**:
    Use your FTP client (such as FileZilla) to upload the files to your web server. Upload all the contents of the repository (including subfolders) to the desired location on your server.
+   If youre on Xampp windows drop the files into the "htdocs" directory
 
-3. **Set up the database**:
+4. **Set up the database**:
    - Create a MySQL or MariaDB database on your web server.
    - Import the provided SQL schema to create the necessary tables (e.g., `users`, `anime`, `manga`).
 
-4. **Configure the `config.php`**:
+5. **Configure the `config.php`**:
    - Open `config/config.php` and enter your **MAL**, **AniList**, and **Jikan API** keys.
    - Set the booleans `$myanimelist` and `$anilist` to `true` to enable integration with those platforms. If you don’t want to use them, set them to `false`.
 
-5. **Set up a web server** (Apache or Nginx):
+6. **Set up a web server** (Apache or Nginx):
    - Ensure that your server has PHP 8.4+ installed.
    - For **Apache**: Ensure `mod_rewrite` is enabled and configure `.htaccess` for clean URLs.
    - For **Nginx**: Make sure your server block is configured to point to the root directory where you uploaded the files.
 
-6. **Access the website**:
+7. **Access the website**:
    - Once the files are uploaded and configured, open your web browser and navigate to your website's URL (e.g., `http://yourdomain.com`). The website should be live and ready for use.
 
 Usage
