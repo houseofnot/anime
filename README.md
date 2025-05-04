@@ -20,7 +20,7 @@ Requirements:
 - PHP 8.4+ (Compatible with modern PHP features)
 - MySQL or MariaDB database server
 - A web server (Apache or Nginx)
-- Access to **MyAnimeList** and **AniList** APIs
+- Access **AniList** API
 - FTP client (for file upload) (or alternate file transfer method of your preference)
 
 Steps to Install:
