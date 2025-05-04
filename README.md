@@ -20,27 +20,23 @@ Requirements:
 - PHP 8.4+ (Compatible with modern PHP features)
 - MySQL or MariaDB database server
 - A web server (Apache or Nginx)
-- Access **AniList** API
+- **AniList** account for thr **AniList** API
 - FTP client (for file upload) (or alternate file transfer method of your preference)
 
 Steps to Install:
 1. **Download the files**: 
-   Download the files from the GitHub repository or the provided link.
+   Download the files from the GitHub repository.
 
 2. **Upload the files via FTP**:
    Use your FTP client (such as FileZilla) to upload the files to your web server. Upload all the contents of the repository (including subfolders) to the desired location on your server.
    If youre on Xampp windows drop the files into the "htdocs" directory
 
-4. **Set up the database**:
-   - Create a MySQL or MariaDB database on your web server.
-   - Import the provided SQL schema to create the necessary tables (e.g., `users`, `anime`, `manga`).
-
-5. **Configure the `config.php`**:
+4. **Configure the `config.php`**:
    - Open `config/config.php` and enter your **MAL**, **AniList**, and **Jikan API** keys.
-   - Set the booleans `$myanimelist` and `$anilist` to `true` to enable integration with those platforms. If you don’t want to use them, set them to `false`.
+   - Set the booleans `$anilist` to `true` to enable integration with anilist. If you don’t want to use it, set them to `false`.
 
-6. **Set up a web server** (Apache or Nginx):
-   - Ensure that your server has PHP 8.4+ installed.
+5. **Set up a web server** (Apache or Nginx):
+   - Ensure that your server has PHP 6.4+ installed.
    - For **Apache**: Ensure `mod_rewrite` is enabled and configure `.htaccess` for clean URLs.
    - For **Nginx**: Make sure your server block is configured to point to the root directory where you uploaded the files.
 
@@ -49,9 +45,9 @@ Steps to Install:
 
 Usage
 
-- **Login**: Users can log in with their **MyAnimeList** or **AniList** accounts to sync their anime and manga progress.
+- **Login**: Users can log in with their **AniList** accounts to sync their anime and manga progress.
 - **Streaming**: Once logged in, users can stream anime or read manga while their progress is tracked automatically.
-- **Progress Sync**: When a user finishes an episode or chapter, the website will update their progress on **MAL** or **AniList**, depending on the configuration.
+- **Progress Sync**: When a user finishes an episode or chapter, the website will update their progress on **AniList**, depending on the configuration.
 - **Dashboard**: Users can view their current anime/manga list and progress through a personal dashboard.
 
 Configuration
